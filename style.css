@@ -1,0 +1,82 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", sans-serif;
+}
+
+/* Body */
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ffe5e5;
+}
+
+/* Card */
+.container {
+    background: #fff;
+    padding: 25px;
+    width: 360px;
+    border-radius: 16px;
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+/* GIF */
+.tenor-gif-embed {
+    margin-bottom: 15px;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+/* Heading */
+h1 {
+    color: #ff4d6d;
+    margin-bottom: 10px;
+}
+
+/* Paragraph */
+p {
+    color: #555;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+/* Buttons container */
+.btn {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Buttons */
+.btn a {
+    text-decoration: none;
+    padding: 10px 22px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+/* Yes button */
+.yes {
+    background: #ff4d6d;
+    color: white;
+}
+
+.yes:hover {
+    background: #e63b59;
+}
+
+
+.no {
+    background: #ea1655;
+    color: #ed87ce;
+}
+
+.no:hover {
+    background: #999;
+}
